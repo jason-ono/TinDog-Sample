@@ -1,0 +1,172 @@
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* .title-and-image{
+  margin: 10% auto;
+} */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Nav Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+.iphone-photo{
+  transform: rotate(18deg);
+  position: absolute;
+  margin: 0 10% 0 2%;
+}
+
+.title-div{
+  margin-bottom: 9%;
+}
+
+@media (max-width: 992px){
+  .iphone-photo{
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+  .title-div{
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .title-col{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#features{
+  padding: 4% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.fas{
+  font-size: 3.5rem;
+  color: #ef8172;
+  padding: 8% 0;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+.feature-col{
+  text-align: center;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  position: relative;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 2% 2% 5% 2%;
+}
+
+/* Pricing */
+
+.price-intro{
+  padding: 6% 9% 3%;
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.container{
+  padding: 3%;
+}
+
+/* CTA */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-div{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Footer */
+.footer-div{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
